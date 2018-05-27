@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">36800268249</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">game.whatscolor</string>
+    <!-- achievement Increable Archievement -->
+    <string name="achievement_increable_archievement" translatable="false">CgkI2Y_ei4kBEAIQAg</string>
+    <!-- leaderboard High Score -->
+    <string name="leaderboard_high_score" translatable="false">CgkI2Y_ei4kBEAIQAw</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/button_home"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:background="@drawable/button_back"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/text_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/back_"
+                android:textSize="@dimen/answer_text_size"
+                android:tint="@color/iconTintColor"
+                android:textColor="@color/iconTintColor"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_continue"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/button_continue">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/text_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/continue_"
+                android:textSize="@dimen/answer_text_size"
+                android:tint="@color/iconTintColor"
+                android:textColor="@color/iconTintColor"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
